@@ -9,7 +9,9 @@ class Student:
     def get_grade(self):
         return self.grade
 
-#parameters give the fuctions what it needs in order to actually run the instructions
+# parameters give the fuctions what it needs in order to actually run the instructions
+# . go inside class, indidcates it belongs to class
+# objects are an instace of a class  
 
 class Course:
     def __init__(self,name, max_students):
@@ -39,6 +41,3 @@ course.add_student(s2)
 print(course.add_student(s3))
 print(course.get_average_grade())
 
-
-
-# . go inside class, indidcates it belongs to class 
